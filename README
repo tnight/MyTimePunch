@@ -1,0 +1,47 @@
+MyTimePunch (c)2002, Stephen Lawrence
+
+version 1.0
+
+MyTimePunch is a simple clock punch application similar to a time clock on the wall in your break room.
+
+Features: 
+
+* Clock-In/Clock-out
+* Multiple users
+* User add/remove
+* Administration rights to user
+* Display clock-in/clock-out entries
+
+Requirements: 
+PHP v4
+MySQL
+
+Installation:
+
+1) Un-tar this file inside a web directory:
+
+example. 'tar xfvz mytimpunch-1.0.tar.gz'
+
+2) Edit the config.inc file
+
+3) Create a new MySQL database called mytimepunch:
+
+example.
+
+'mysqladmin -u root -p create mytimepunch'
+
+3) Set up the permissions for the mytimepunch database depending on 
+how you configured config.inc.
+
+4) Point your browser to http://myhostname/mytimepunch
+
+login with:
+username: test
+password: test
+
+
+
+Enjoy!
+
+Stephen Lawrence Jr.
+logart@users.sourceforge.net
